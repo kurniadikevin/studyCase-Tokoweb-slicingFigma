@@ -2,6 +2,7 @@
     background-color: #D8191E;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
 }
 .banner1-col1, .banner1-col2{
     display: grid;
