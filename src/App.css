@@ -1,8 +1,7 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: auto 367px 3703px 518px 504px;
-  
+  grid-template-rows: 800px 367px 3703px 518px 504px;
   
 }
 

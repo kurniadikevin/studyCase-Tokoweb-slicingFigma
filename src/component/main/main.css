@@ -1,0 +1,117 @@
+.main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1.5fr 1.5fr 1.5fr 1.5fr;
+}
+.main-row1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-header1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+    text-align: center;
+    letter-spacing: 0.016em;
+}
+
+.main-header1-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.016em;
+    width: 550px;
+    height: 81px;
+    color: #807D7D;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.main-row2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-cont{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 24px;
+    
+    width: 430px;
+    height: 410px;
+    
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #E7EAEC;
+    box-shadow: 25px 25px 100px rgba(166, 161, 157, 0.1);
+    border-radius: 30px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.feature-box{
+    background: rgba(216, 25, 30, 0.1);
+    border-radius: 12px;
+    width: 93px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-row2{
+width: 324px;
+height: 36px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+display: flex;
+align-items: center;
+justify-content: center;
+letter-spacing: 0.016em;
+color: #0D0D0D;
+
+}
+
+.feature-row3{
+    width: 250.05px;
+    height: 81px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.016em;
+    
+    color: #807D7D;
+}
