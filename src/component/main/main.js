@@ -61,6 +61,7 @@ const Main= ()=>{
                                 <div className='col1-header' id='map-header'>
                             {item.caption}
                                 </div>
+                                <br/>
                                 <div className='col1-text' id='map-text'>
                             {item.text}
                            </div>
@@ -85,7 +86,7 @@ const Main= ()=>{
                             
                         </div>
                         <div className='head-col2' id='map-col2'>
-                        <img src={rectangleRed} alt='rectangleMap' id='rectangleMap'/>
+                        <div id='rectangleMap'></div>
                         <img id='mobileView'src={require(`../../assets/mobileView${index+1}.png`)} alt='mobileView'/> 
                         <img id='fishMap'src={require(`../../assets/fish${index+1}.png`)} alt='Fish'/>
                         </div>

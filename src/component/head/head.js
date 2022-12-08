@@ -16,6 +16,7 @@ const Head = ()=>{
                     <div>Beranda</div>
                     <div>Keunggulan</div>
                     <div>Fitur Aplikasi</div>
+                    <div>Testimonial</div>
                 </div>
                 <div className='download-cont'>
                     <div>Download</div>

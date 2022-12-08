@@ -15,7 +15,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 48px;
+        font-size: 50px;
         line-height: 150%;
         text-align: left;
         /* or 72px */
@@ -27,7 +27,7 @@
     .banner2-text{
     /* Body Text/Large/Medium */
 
-    font-family: 'Gilroy';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -39,7 +39,7 @@
     letter-spacing: 0.016em;
 
     color: #FFFFFF;
-    
+    padding-bottom: 20px;
     }
 
 #image-banner2{

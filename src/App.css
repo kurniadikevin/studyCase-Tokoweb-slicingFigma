@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: 800px 367px 3503px 518px 504px;
+  grid-template-rows: 800px 400px 3800px 518px 554px;
   zoom: 80%;  
+  width: 100%;
 }
-
 .App>div{
-  border: 1px solid red;
 }
 

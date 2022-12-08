@@ -1,17 +1,15 @@
 .testimonial{
-    border: 1px solid blue;
     
 }
 
 .testimonial-head{
-    border: 1px solid orangered;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
     padding-top: 45px;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
 }
     .testimonial-title{
         font-family: 'Poppins';
@@ -21,7 +19,7 @@
         line-height: 150%;
     }
     .testimonial-text{
-        font-family: 'Gilroy';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -45,7 +43,10 @@
 /*SLIDESHOW */
 .testi-slideshow{
     display: flex;
-    gap: 20px;
+    gap: 24px;
+    position: relative;
+    left: 135px;
+    overflow: hidden; 
 }
 
 .testi-cont{
@@ -80,14 +81,19 @@
         color: #133240;   
     }
     .testi-row3{
-        font-family: 'Gilroy';
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
         letter-spacing: 0.02em;
-        
+        text-align: left;
         color: #807D7D; 
+
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
     }
 
 /*TESTIMONIAL BOTTOM */
