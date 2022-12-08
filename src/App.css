@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&display=swap');
+
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: 800px 367px 3703px 518px 504px;
-  
+  grid-template-rows: 800px 367px 3503px 518px 504px;
+  zoom: 80%;  
 }
 
 .App>div{

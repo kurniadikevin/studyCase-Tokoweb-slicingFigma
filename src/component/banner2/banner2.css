@@ -1,0 +1,48 @@
+.banner2{
+    background: url('../../assets/Rectangle-Banner2.png'), #D8191E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner2-col1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 113px;
+    gap: 20px;
+    padding-left: 100px;
+}
+    .banner2-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 150%;
+        text-align: left;
+        /* or 72px */
+        color: #FFFFFF;
+        letter-spacing: 0.016em;
+        width: 590.38px;
+        height: 144px;     
+    }
+    .banner2-text{
+    /* Body Text/Large/Medium */
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    /* or 32px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.016em;
+
+    color: #FFFFFF;
+    
+    }
+
+#image-banner2{
+    position: relative;
+    top: -19%;
+}

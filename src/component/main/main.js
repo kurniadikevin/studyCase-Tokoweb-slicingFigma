@@ -1,4 +1,5 @@
 import './main.css';
+import Testimonial from './testimonial/testimonial';
 const rectangleRed = require('../../assets/RectangleMap.png');
 
 const Main= ()=>{
@@ -92,7 +93,7 @@ const Main= ()=>{
                     )
                 })}
             </div>
-
+            <Testimonial/>
 
         </div>
     )
