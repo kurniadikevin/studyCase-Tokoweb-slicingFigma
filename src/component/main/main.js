@@ -8,9 +8,9 @@ const Main= ()=>{
 
     const listFeatureArrObject = [{
         caption : 'Berbagai Metode Pengiriman', text : `A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  standard.`},
-        {caption : `Lacak status pengiriman anda`, text : `A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown.
+        {caption : `Lacak Status Pengiriman Anda`, text : `A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown.
         A Lorem Ipsum is simply dummy text of the printing and typesetting industry. `},
-        {caption : `Cek schedule pengiriman anda`, text : `A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  standard.`}]
+        {caption : `Cek Schedule Pengiriman Anda`, text : `A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  standard.`}]
 
    
 
@@ -57,8 +57,8 @@ const Main= ()=>{
                         </div>
 
                         <div className='head-col1' id='map-col1'>
-                            <div className='container-mapping'>
-                                <div className='col1-header' id='map-header'>
+                            <div className='container-mapping' id='container-mapping-reverse'>
+                                <div className='col1-header' id='map-header-reverse'>
                             {item.caption}
                                 </div>
                                 <br/>

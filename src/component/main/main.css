@@ -228,3 +228,22 @@ color: #0D0D0D;
     width: 350px;
     height: 300px;
 }
+
+#container-mapping-reverse{
+    position: relative;
+    left: 80px;
+}
+
+#map-header-reverse{
+    width: 700px;
+    height: 144px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* or 72px */
+    padding-bottom: 40px;
+    letter-spacing: 0.016em;
+}
+
